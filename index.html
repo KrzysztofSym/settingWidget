@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting widget</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column1">
+            <nav class="dropdown" data-dropdown><i class="fa-solid fa-ellipsis"></i></nav>
+            <ul class="dropdown-menu" data-dropdown-menu>
+                <li>Edit your list</li>
+                <li>Account settings</li>
+                <li>View your profile</li>
+            </ul>
+        </div>
+        <div class="column2">
+            <div class="card widget">
+                <h3>Customize your widget</h3>
+                <label class="check-form">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <span>Display Contact button</span>
+                </label>
+                <label class="check-form">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <span>Hide email address</span>
+                </label>
+                <label class="check-form">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <span>Display Publish button</span>
+                </label>
+                <div class="btns">
+                    <button class="btn">Cancel</button>
+                    <button class="btn">Save</button>
+                </div>
+            </div>
+            <div class="card other">
+                <h3>Other</h3>
+                <label class="check-form">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <span>Turn on in -app notifications.</span>
+                </label>
+                <label class="check-form">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <span>Receive weekly newsletters and other offers.</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
